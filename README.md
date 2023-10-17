@@ -1,17 +1,32 @@
-# Rss-Translation
+# rss-translate
 
-这是一个外文RSS翻译转换订阅页面 
+rss translate any to any
 
-[![circle_translate](https://github.com/tjsky/Rss-Translation/actions/workflows/circle_translate.yml/badge.svg)](https://github.com/tjsky/Rss-Translation/actions/workflows/circle_translate.yml)
-[![Deploy](https://github.com/tjsky/Rss-Translation/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/tjsky/Rss-Translation/actions/workflows/jekyll-gh-pages.yml)
+![](https://github.com/talengu/rss-translate/workflows/circle_translate/badge.svg)
+![](https://github.com/talengu/rss-translate/workflows/Deploy/badge.svg)
 
-在 [test.ini](https://github.com/tjsky/Rss-Translation/blob/main/test.ini) 中提交以转换订阅，转换[rss to json](https://rss2json.com/)
+you can edit [test.ini](https://github.com/talengu/rss-translate/edit/main/test.ini) to add orginal rss url. [help](https://github.com/talengu/rss-translate/issues/2)
 
-查看[ RSS-Translation ](https://tjsky.github.io/RSS-Translation)使用[ 教程 ](https://www.tjsky.net/tutorial/644)修改自[ Rss-translate ](https://github.com/rcy1314/Rss-Translation/)
+next find the translated link in [https://talengu.github.io/rss-translate/](https://talengu.github.io/rss-translate/)
 
-## 已转换翻译源
+## 20230814 update
+- support proxy mode. you can set `action = "proxy"` in test.ini like [source010](https://github.com/talengu/rss-translate/blob/f6648c5262f4fa0926310dbe43fff820bf727ac7/test.ini#L67)
+
+## 20230702 update 
+- use [main2.py](https://github.com/talengu/rss-translate/blob/main/main2.py) in [circle_translate.yml](https://github.com/talengu/rss-translate/blob/aeb61bc36eb1a22fd003677b5209291cf7cb4a87/.github/workflows/circle_translate.yml#L38)
+- atom is bad now base on an atom paraser to find. NOW SUPPORT
+        use [feedparser](https://pythonhosted.org/feedparser/)
+- fix google translate limit . NOW SUPPORT
+
+## rss translate links
 
  - source001 [http://www.mckinsey.com/insights/rss](http://www.mckinsey.com/insights/rss) -> [mckinsey_rss.xml](rss/mckinsey_rss.xml)
  - source002 [http://www.mckinsey.com/insights/rss](http://www.mckinsey.com/insights/rss) -> [mckinsey_iw_rss.xml](rss/mckinsey_iw_rss.xml)
  - source003 [http://rss.acast.com/nature](http://rss.acast.com/nature) -> [nature_rss.xml](rss/nature_rss.xml)
- - source004 [http://feeds.bbci.co.uk/news/rss.xml](http://feeds.bbci.co.uk/news/rss.xml) -> [BBC_Top_Stories_rss.xml](rss/BBC_Top_Stories_rss.xml)
+ - source004 [https://rss-bridge.org/bridge01/?action=display&bridge=ReutersBridge&feed=home/topnews&format=Atom](https://rss-bridge.org/bridge01/?action=display&bridge=ReutersBridge&feed=home/topnews&format=Atom) -> [Reuters_rss.xml](rss/Reuters_rss.xml)
+ - source005 [https://rss-bridge.org/bridge01/?action=display&bridge=ReutersBridge&feed=china&format=Atom](https://rss-bridge.org/bridge01/?action=display&bridge=ReutersBridge&feed=china&format=Atom) -> [Reuters china_rss.xml](rss/Reuters%20china_rss.xml)
+ - source006 [https://www.profgalloway.com/feed/](https://www.profgalloway.com/feed/) -> [No Mercy No Malice_rss.xml](rss/No%20Mercy%20No%20Malice_rss.xml)
+ - source007 [https://rss-bridge.org/bridge01/?action=display&bridge=ReutersBridge&feed=home/topnews&format=Atom](https://rss-bridge.org/bridge01/?action=display&bridge=ReutersBridge&feed=home/topnews&format=Atom) -> [economist latest_rss.xml](rss/economist%20latest_rss.xml)
+ - source008 [https://rss-bridge.org/bridge01/?action=display&bridge=EconomistWorldInBriefBridge&limit=100&agenda=on&agendaPictures=on&format=Atom](https://rss-bridge.org/bridge01/?action=display&bridge=EconomistWorldInBriefBridge&limit=100&agenda=on&agendaPictures=on&format=Atom) -> [economist this week_rss.xml](rss/economist%20this%20week_rss.xml)
+ - source009 [https://www.kali.org/rss.xml](https://www.kali.org/rss.xml) -> [kali.xml](rss/kali.xml)
+ - source010 [https://www.v2ex.com/index.xml](https://www.v2ex.com/index.xml) -> [v2ex.xml](rss/v2ex.xml)
