@@ -21,4 +21,6 @@ next find the translated link in [https://talengu.github.io/rss-translate/](http
 ## rss translate links
 
  - source001 [https://rsshub.app/economist/latest](https://rsshub.app/economist/latest) -> [economist_latest_cn.xml](rss/economist_latest_cn.xml)
- - source002 [https://news.ycombinator.com/rss](https://news.ycombinator.com/rss) -> [hacker_news_cn.xml](rss/hacker_news_cn.xml)
+ - source002 [https://www.ft.com/chinese-business-finance?format=rss](https://www.ft.com/chinese-business-finance?format=rss) -> [ft_chinese_business_cn.xml](rss/ft_chinese_business_cn.xml)
+ - source003 [https://rsshub.app/bloomberg/markets](https://rsshub.app/bloomberg/markets) -> [bloomberg_markets_cn.xml](rss/bloomberg_markets_cn.xml)
+ - source004 [https://www.ft.com/chinese-economy?format=rss](https://www.ft.com/chinese-economy?format=rss) -> [ft_chinese_economy_cn.xml](rss/ft_chinese_economy_cn.xml)
