@@ -1,4 +1,4 @@
-# rss-translate
+# RSS-Translation
 
 rss translate any to any
 
@@ -7,7 +7,7 @@ rss translate any to any
 
 you can edit [test.ini](https://github.com/Pankaipeng/RSS-Translation/edit/main/test.ini) to add orginal rss url. [help](https://github.com/Pankaipeng/RSS-Translation/issues/2)
 
-next find the translated link in [https://talengu.github.io/rss-translate/](https://talengu.github.io/rss-translate/)
+next find the translated link in [https://Pankaipeng.github.io/RSS-Translation/](https://Pankaipeng.github.io/RSS-Translation/)
 
 ## 20230814 update
 - support proxy mode. you can set `action = "proxy"` in test.ini like [source010](https://github.com/Pankaipeng/RSS-Translation/blob/f6648c5262f4fa0926310dbe43fff820bf727ac7/test.ini#L67)
