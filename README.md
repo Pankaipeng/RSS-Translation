@@ -20,7 +20,8 @@ next find the translated link in [https://Pankaipeng.github.io/RSS-Translation/]
 
 ## rss translate links
 
- - source001 [https://rsshub.app/economist/latest](https://rsshub.app/economist/latest) -> [economist_latest_cn.xml](rss/economist_latest_cn.xml)
- - source002 [https://www.ft.com/chinese-business-finance?format=rss](https://www.ft.com/chinese-business-finance?format=rss) -> [ft_chinese_business_cn.xml](rss/ft_chinese_business_cn.xml)
- - source003 [https://feeds.bloomberg.com/markets/news.rss](https://feeds.bloomberg.com/markets/news.rss) -> [bloomberg_markets.xml](rss/bloomberg_markets.xml)
- - source004 [https://www.ft.com/chinese-economy?format=rss](https://www.ft.com/chinese-economy?format=rss) -> [ft_chinese_economy_cn.xml](rss/ft_chinese_economy_cn.xml)
+ - source001 [https://feedx.net/rss/economist.xml](https://feedx.net/rss/economist.xml) -> [economist_latest.xml](rss/economist_latest.xml)
+ - source002 [https://feedx.net/rss/economistp.xml](https://feedx.net/rss/economistp.xml) -> [economist_print.xml](rss/economist_print.xml)
+ - source003 [https://feedx.net/rss/newyorker.xml](https://feedx.net/rss/newyorker.xml) -> [newyorker.xml](rss/newyorker.xml)
+ - source004 [https://feedx.net/rss/hbr.xml](https://feedx.net/rss/hbr.xml) -> [hbr.xml](rss/hbr.xml)
+ - source005 [https://feedx.net/rss/nasa.xml](https://feedx.net/rss/nasa.xml) -> [nasa.xml](rss/nasa.xml)
