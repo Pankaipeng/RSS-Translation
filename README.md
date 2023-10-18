@@ -1,16 +1,16 @@
 # RSS-Translation
 
-rss translate any to any
+rss translate any to any (fork from https://github.com/talengu/rss-translate)
 
 ![](https://github.com/Pankaipeng/RSS-Translation/workflows/circle_translate/badge.svg)
 ![](https://github.com/Pankaipeng/RSS-Translation/workflows/Deploy/badge.svg)
 
-you can edit [test.ini](https://github.com/Pankaipeng/RSS-Translation/edit/main/test.ini) to add orginal rss url. [help](https://github.com/Pankaipeng/RSS-Translation/issues/2)
+you can edit [test.ini](https://github.com/Pankaipeng/RSS-Translation/edit/main/test.ini) to add orginal rss url. [help](https://github.com/talengu/rss-translate/issues/2)
 
 next find the translated link in [https://Pankaipeng.github.io/RSS-Translation/](https://Pankaipeng.github.io/RSS-Translation/)
 
 ## 20230814 update
-- support proxy mode. you can set `action = "proxy"` in test.ini like [source010](https://github.com/Pankaipeng/RSS-Translation/blob/f6648c5262f4fa0926310dbe43fff820bf727ac7/test.ini#L67)
+- support proxy mode. you can set `action = "proxy"` in test.ini like [source010](https://github.com/talengu/rss-translate/blob/f6648c5262f4fa0926310dbe43fff820bf727ac7/test.ini#L67)
 
 ## 20230702 update 
 - use [main2.py](https://github.com/Pankaipeng/RSS-Translation/blob/main/main2.py) in [circle_translate.yml](https://github.com/Pankaipeng/RSS-Translation/blob/aeb61bc36eb1a22fd003677b5209291cf7cb4a87/.github/workflows/circle_translate.yml#L38)
