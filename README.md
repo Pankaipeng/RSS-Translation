@@ -26,3 +26,4 @@ next find the translated link in [https://Pankaipeng.github.io/RSS-Translation/]
  - source004 [https://feedx.net/rss/hbr.xml](https://feedx.net/rss/hbr.xml) -> [hbr.xml](rss/hbr.xml)
  - source005 [https://feedx.net/rss/nasa.xml](https://feedx.net/rss/nasa.xml) -> [nasa.xml](rss/nasa.xml)
  - source006 [https://feeds.macrumors.com/MacRumors-All](https://feeds.macrumors.com/MacRumors-All) -> [macrumors.xml](rss/macrumors.xml)
+ - source007 [https://flipboard.com/topic/china.rss](https://flipboard.com/topic/china.rss) -> [china.xml](rss/china.xml)
